@@ -1,3 +1,4 @@
+# Read: https://github.com/craftzdog/dotfiles-public
 # Install Form Nerd - hack
 https://github.com/ryanoasis/nerd-fonts/releases/tag/v2.1.0
 
