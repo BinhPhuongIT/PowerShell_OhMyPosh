@@ -36,6 +36,7 @@ Open Json File search "One Half Dark" --> copy and paste new
 
 # Instal Scoop
 iwr -useb get.scoop.sh | iex
+scoop install curl sudo jq
 curl 'https://api.inkdrop.app/' | jq .
 
 # Install Git
