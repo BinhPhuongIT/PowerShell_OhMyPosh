@@ -61,10 +61,12 @@ Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 ```
 
 mkdir Documents/PowerShell
+``C:\Users\phuong.lb\Documents\PowerShell> pưd .\Microsoft.PowerShell_profile.ps1``
 nvim $PROFILE.CurrentUserCurrentHost
 . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
 # Install Oh My Posh
+scoop install oh-my-posh
 Install-Module posh-git -Scope CurrentUser -Force
 Install-Module oh-my-posh -Scope CurrentUser -Force 
 
@@ -97,6 +99,7 @@ z desk
 Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 # Install-Module PSReadLine -Force -AllowPrerelease -SkipPublisherCheck
 Set-PSReadLineOption -PredictionSource History
+# reload terminal
 Set-PSReadLineOption -PredictionViewStyle ListView
 
 # Install Fzf Fuzzy Finder
